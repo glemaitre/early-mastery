@@ -6,14 +6,12 @@
 
 \include{defs}
 
-
-
 \usepackage{lipsum}
 
 %%%%%%%%%%%%%%%
 % Title Page
-\title{\LaTeX\ template for business reports}
-\author{Karol Kozioł \newline / Company Name / Company Address}
+\title{Robotic activities in Technovision \newline \normalsize{Early Mastery - Playful Coding}}
+\author{\small{Laboratoire Electronique, Informatique, Image \newline Universit\'e de Bourgogne - Le Creusot - France}}
 \date{\today}
 %%%%%%%%%%%%%%%
 
@@ -23,110 +21,117 @@
 \tableofcontents
 \clearpage
 
-\section{Features commands}
+\input{activity-1.tex}
+\clearpage
+\input{activity-2.tex}
+\clearpage
+\input{activity-3.tex}
+\clearpage
 
-\subsection{Pictures used}
+% \section{Features commands}
 
-\noindent
-Cover picture filename (in titlepage): \texttt{cover}\\
-Logo filename (in foot): \texttt{logo}
+% \subsection{Pictures used}
 
-\subsection{Boxes}
+% \noindent
+% Cover picture filename (in titlepage): \texttt{cover}\\
+% Logo filename (in foot): \texttt{logo}
 
-\begin{verbatim}
-\fullboxbegin
-Content
-\fullboxend
-\end{verbatim}
+% \subsection{Boxes}
 
-\begin{verbatim}
-\leftboxbegin
-Content
-\leftboxend
-\end{verbatim}
+% \begin{verbatim}
+% \fullboxbegin
+% Content
+% \fullboxend
+% \end{verbatim}
 
-\begin{verbatim}
-\rightboxbegin
-Content
-\rightboxend
-\end{verbatim}
+% \begin{verbatim}
+% \leftboxbegin
+% Content
+% \leftboxend
+% \end{verbatim}
 
-\begin{verbatim}
-\frameboxbegin{Frame Title}
-Content
-\frameboxend
-\end{verbatim}
+% \begin{verbatim}
+% \rightboxbegin
+% Content
+% \rightboxend
+% \end{verbatim}
 
-\newpage
+% \begin{verbatim}
+% \frameboxbegin{Frame Title}
+% Content
+% \frameboxend
+% \end{verbatim}
 
-\section{First section}
-\lipsum[1]
+% \newpage
 
-\fullboxbegin
-\lipsum[1]
-\fullboxend
+% \section{First section}
+% \lipsum[1]
 
-\lipsum[1]
+% \fullboxbegin
+% \lipsum[1]
+% \fullboxend
 
-\subsection{First subsection}
-\lipsum[1]
+% \lipsum[1]
 
-\leftboxbegin
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, nonummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque. 
-\leftboxend
+% \subsection{First subsection}
+% \lipsum[1]
 
-\lipsum[1-2]
+% \leftboxbegin
+% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, nonummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque. 
+% \leftboxend
 
-\rightboxbegin
-\begin{itemize}
- \item Lorem ipsum
- \item Lorem ipsum
-\end{itemize}
-\rightboxend
+% \lipsum[1-2]
 
-\lipsum[1]
+% \rightboxbegin
+% \begin{itemize}
+%  \item Lorem ipsum
+%  \item Lorem ipsum
+% \end{itemize}
+% \rightboxend
 
-\subsubsection{First subsubsection}
+% \lipsum[1]
 
-\lipsum[1]
+% \subsubsection{First subsubsection}
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.5\textwidth]{sky.jpg}
-\caption{The sky is the limit.}
-\end{figure}
+% \lipsum[1]
 
-\section*{Unnumbered section}
-\lipsum[1]
+% \begin{figure}[!h]
+% \centering
+% \includegraphics[width=0.5\textwidth]{sky.jpg}
+% \caption{The sky is the limit.}
+% \end{figure}
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.5\textwidth]{sky.jpg}
-\caption*{The sky is the limit.}
-\end{figure}
+% \section*{Unnumbered section}
+% \lipsum[1]
 
-\section{Second section}
+% \begin{figure}[!h]
+% \centering
+% \includegraphics[width=0.5\textwidth]{sky.jpg}
+% \caption*{The sky is the limit.}
+% \end{figure}
 
-\lipsum[1]
-\begin{table}[!h]
-\centering
-\caption{Sample table.}
-\begin{tabular}{cccc}
-\toprule
-Value 1 & Value 2 & Value 3 & Value 4\\
-\midrule
- odd     & odd   & odd & 1.00 \\
- even    & even  & even& 1.00 \\
- odd     & odd   & odd & 1.00 \\
- even    & even  & even& 1.00 \\
-\bottomrule
-\end{tabular}
-\end{table}
+% \section{Second section}
 
-\lipsum[1]
+% \lipsum[1]
+% \begin{table}[!h]
+% \centering
+% \caption{Sample table.}
+% \begin{tabular}{cccc}
+% \toprule
+% Value 1 & Value 2 & Value 3 & Value 4\\
+% \midrule
+%  odd     & odd   & odd & 1.00 \\
+%  even    & even  & even& 1.00 \\
+%  odd     & odd   & odd & 1.00 \\
+%  even    & even  & even& 1.00 \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
 
-\frameboxbegin{Sample frame}
-\lipsum[1]
-\frameboxend
+% \lipsum[1]
+
+% \frameboxbegin{Sample frame}
+% \lipsum[1]
+% \frameboxend
 
 \end{document}          
