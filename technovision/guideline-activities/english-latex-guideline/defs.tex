@@ -121,7 +121,8 @@ keepaspectratio]{cover}%
 \def\frameboxbegin#1{
 \bigskip
 \refstepcounter{frames}
-\begin{tcolorbox}[colback=white,colframe=color1,arc=0mm,title={\MakeUppercase{\textbf{Frame \arabic{frames}}: #1}}]
+%\begin{tcolorbox}[colback=white,colframe=color1,arc=0mm,title={\MakeUppercase{\textbf{Frame \arabic{frames}}: #1}}]
+\begin{tcolorbox}[colback=white,colframe=color1,arc=0mm,title={#1}]
 }
 \def\frameboxend{
 \end{tcolorbox}
